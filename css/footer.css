@@ -1,0 +1,41 @@
+.footer {
+    background: #3FA5D5;
+    padding: 43px 0;
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__title {
+    font-family: 'RB', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 59px;
+    color: #FFFFFF;
+}
+
+.footer__contacts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 15px;
+}
+
+.footer__contacts-tel {
+    font-family: 'RB', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.footer__contacts-email {
+    font-family: 'RR', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    color: #FFFFFF;
+}

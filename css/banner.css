@@ -26,7 +26,8 @@
     font-weight: 700;
     line-height: 59px;
     color: #464748;
-
+    position: relative;
+    z-index: 1;
 }
 
 .banner__text {
@@ -37,6 +38,18 @@
     color: #696868;
 }
 
-.banner__btn{
+.banner__btn {
     padding: 7px 62px;
+}
+
+.banner__title::before {
+    content: '';
+    width: 100px;
+    height: 52px;
+    background: #3fa5d5;
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
 }
