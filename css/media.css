@@ -1,0 +1,5 @@
+@media screen and (max-width: 1340px) {
+    .cards__inner {
+        flex-wrap: wrap;
+    }
+}
